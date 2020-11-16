@@ -21,3 +21,4 @@ jobs:
         env:
           PUBLISH_DIR: _site 
           PUBLISH_BRANCH: published-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
