@@ -1,0 +1,7 @@
+.main {
+    color: green;
+    background-image: url("assets/background_advent.png");
+    background-repeat: no-repeat;
+    background-color: #1c2716;
+    background-size: 100vw 100vh;
+}
