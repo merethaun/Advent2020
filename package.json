@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx @11ty/eleventy --serve",
-    "install": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
