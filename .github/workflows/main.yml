@@ -16,3 +16,8 @@ jobs:
         run: |
           npm install
           npm run build
+      - name: Publish on published-pages
+        uses: peaceiris/actions-gh-pages@v1.1.0
+        env:
+          PUBLISH_DIR: _site 
+          PUBLISH_BRANCH: published-pages
