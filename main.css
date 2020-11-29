@@ -1,7 +1,140 @@
 .main {
-    color: green;
-    background-image: url("assets/background_advent.png");
-    background-repeat: no-repeat;
-    background-color: #1c2716;
-    background-size: 100vw 100vh;
+    background-color: #1b2615;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.fields {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.one {
+    top: 268px;
+    left: 277px;
+}
+
+.two {
+    top: 595px;
+    left: 664px;
+}
+
+.three {
+    top: 79px;
+    left: 249px;
+}
+
+.four {
+    top: 214px;
+    left: 1158px;
+}
+
+.five {
+    top: 108px;
+    left: 44px;
+}
+
+.six {
+    top: 225px;
+    left: 840px;
+}
+
+.seven {
+    top: 421px;
+    left: 1090px;
+}
+
+.eight {
+    top: 538px;
+    left: 1184px;
+}
+
+.nine {
+    top: 220px;
+    left: 525px;
+}
+
+.ten {
+    top: 115px;
+    left: 1267px;
+}
+
+.eleven {
+    top: 630px;
+    left: 143px;
+}
+
+.twelve {
+    top: 66px;
+    left: 374px;
+}
+
+.thirteen {
+    top: 672px;
+    left: 939px;
+}
+
+.fourteen {
+    top: 140px;
+    left: 168px;
+}
+
+.fiveteen {
+    top: 400px;
+    left: 832px;
+}
+
+.sixteen {
+    top: 68px;
+    left: 1120px;
+}
+
+.seventeen {
+    top: 427px;
+    left: 248px;
+}
+
+.eightteen {
+    top: 160px;
+    left: 600px;
+}
+
+.nineteen {
+    top: 525px;
+    left: 425px;
+}
+
+.twenty {
+    top: 508px;
+    left: 1px;
+}
+
+.twentyone {
+    top: 56px;
+    left: 845px;
+}
+
+.twentytwo {
+    top: 402px;
+    left: 425px;
+}
+
+.twentythree {
+    top: 589px;
+    left: 280px;
+}
+
+.twentyfour {
+    top: 381px;
+    left: 668px;
 }

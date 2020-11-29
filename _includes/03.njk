@@ -1,0 +1,19 @@
+<button class="fields three" onclick="playThree()">
+    <img src="../assets/pictures/03_small.png"/>
+</button>
+
+<script>
+var song03 = new Audio("../assets/audio/03.mp3");
+function playThree() {
+    var date = new Date();
+    if (date.getDate() >= 3) {
+        if (song03.currentTime > 0) {
+            song03.load();
+        } else {
+            song03.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>

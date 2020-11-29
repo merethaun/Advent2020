@@ -1,0 +1,19 @@
+<button class="fields twentyfour" onclick="playtwentyfour()">
+    <img src="../assets/pictures/24_small.png"/>
+</button>
+
+<script>
+var song24 = new Audio("../assets/audio/24.mp3");
+function playtwentyfour() {
+    var date = new Date();
+    if (date.getDate() >= 24) {
+        if (song24.currentTime > 0) {
+            song24.load();
+        } else {
+            song24.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>

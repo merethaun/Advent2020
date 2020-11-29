@@ -1,0 +1,19 @@
+<button class="fields thirteen" onclick="playthirteen()">
+    <img src="../assets/pictures/13_small.png"/>
+</button>
+
+<script>
+var song13 = new Audio("../assets/audio/13.mp3");
+function playthirteen() {
+    var date = new Date();
+    if (date.getDate() >= 13) {
+        if (song13.currentTime > 0) {
+            song13.load();
+        } else {
+            song13.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>

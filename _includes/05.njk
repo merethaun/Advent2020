@@ -1,0 +1,19 @@
+<button class="fields five" onclick="playFive()">
+    <img src="../assets/pictures/05_small.png"/>
+</button>
+
+<script>
+var song05 = new Audio("../assets/audio/05.mp3");
+function playFive() {
+    var date = new Date();
+    if (date.getDate() >= 5) {
+        if (song05.currentTime > 0) {
+            song05.load();
+        } else {
+            song05.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>

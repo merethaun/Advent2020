@@ -1,0 +1,19 @@
+<button class="fields fourteen" onclick="playfourteen()">
+    <img src="../assets/pictures/14_small.png"/>
+</button>
+
+<script>
+var song14 = new Audio("../assets/audio/14.mp3");
+function playfourteen() {
+    var date = new Date();
+    if (date.getDate() >= 14) {
+        if (song14.currentTime > 0) {
+            song14.load();
+        } else {
+            song14.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>

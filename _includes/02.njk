@@ -1,0 +1,19 @@
+<button class="fields two" onclick="playTwo()">
+    <img src="../assets/pictures/02_small.png"/>
+</button>
+
+<script>
+var song02 = new Audio("../assets/audio/02.mp3");
+function playTwo() {
+    var date = new Date();
+    if (date.getDate() >= 2) {
+        if (song02.currentTime > 0) {
+            song02.load();
+        } else {
+            song02.play();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+</script>
