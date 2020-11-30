@@ -2,18 +2,57 @@
     <img src="./assets/pictures/04_small.png"/>
 </button>
 
+
+<div class="audio presenter" id="id_04">
+    <h1>Santa Claus is coming to Town</h1>
+    <audio controls id="song04">
+        <source src="./assets/audio/04.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close04()">&#10005</button>
+</div>
+
 <script>
-var song04 = new Audio("./assets/audio/04.mp3");
+var id_04 =document.getElementById("id_04");
+id_04.style.display = "none";
+var song04 = document.getElementById("song04");
 function playFour() {
     var date = new Date();
     if (date.getDate() >= 4) {
+        id_04.style.display = "flex";
         if (song04.currentTime > 0) {
-            song04.load();
+            close04();
         } else {
             song04.play();
+            close01();
+            close02();
+            close03();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close04() {
+    id_04.style.display = "none";
+    song04.load();
 }
 </script>

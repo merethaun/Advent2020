@@ -2,18 +2,57 @@
     <img src="./assets/pictures/09_small.png"/>
 </button>
 
+
+<div class="audio presenter" id="id_09">
+    <h1>Etude Op. 10 No. 3 - Chopin</h1>
+    <audio controls id="song09">
+        <source src="./assets/audio/09.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close09()">&#10005</button>
+</div>
+
 <script>
-var song09 = new Audio("./assets/audio/09.mp3");
+var id_09 =document.getElementById("id_09");
+id_09.style.display = "none";
+var song09 = document.getElementById("song09");
 function playnine() {
     var date = new Date();
     if (date.getDate() >= 9) {
+        id_09.style.display = "flex";
         if (song09.currentTime > 0) {
-            song09.load();
+            close09();
         } else {
             song09.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close09() {
+    id_09.style.display = "none";
+    song09.load();
 }
 </script>

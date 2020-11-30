@@ -2,18 +2,56 @@
     <img src="./assets/pictures/12_small.png"/>
 </button>
 
+<div class="audio presenter" id="id_12">
+    <h1>Dance of the Sugar Plm Fairy</h1>
+    <audio controls id="song12">
+        <source src="./assets/audio/12.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close12()">&#10005</button>
+</div>
+
 <script>
-var song12 = new Audio("./assets/audio/12.mp3");
+var id_12 =document.getElementById("id_12");
+id_12.style.display = "none";
+var song12 = document.getElementById("song12");
 function playtwelve() {
     var date = new Date();
     if (date.getDate() >= 12) {
+        id_12.style.display = "flex";
         if (song12.currentTime > 0) {
-            song12.load();
+            close12();
         } else {
             song12.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close12() {
+    id_12.style.display = "none";
+    song12.load();
 }
 </script>

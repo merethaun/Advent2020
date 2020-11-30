@@ -1,19 +1,56 @@
 <button class="fields one" onclick="playOne()">
     <img src="./assets/pictures/01_small.png"/>
 </button>
+<div class="audio presenter" id="id_01">
+    <h1>Hedwig's Theme</h1>
+    <audio controls id="song01">
+        <source src="./assets/audio/01.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close01()">&#10005</button>
+</div>
 
 <script>
-var song01 = new Audio("./assets/audio/01.mp3");
+var id_01 =document.getElementById("id_01");
+id_01.style.display = "none";
+var song01 = document.getElementById("song01");
 function playOne() {
     var date = new Date();
     if (date.getDate() >= 1) {
+        id_01.style.display = "flex";
         if (song01.currentTime > 0) {
-            song01.load();
+            close01();
         } else {
             song01.play();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close01() {
+    id_01.style.display = "none";
+    song01.load();
 }
 </script>

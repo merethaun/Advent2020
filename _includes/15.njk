@@ -2,18 +2,56 @@
     <img src="./assets/pictures/15_small.png"/>
 </button>
 
+<div class="audio presenter" id="id_15">
+    <h1>Nocture Op. 9 No. 2 - Chopin</h1>
+    <audio controls id="song15">
+        <source src="./assets/audio/15.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close15()">&#10005</button>
+</div>
+
 <script>
-var song15 = new Audio("./assets/audio/15.mp3");
+var id_15 =document.getElementById("id_15");
+id_15.style.display = "none";
+var song15 = document.getElementById("song15");
 function playfiveteen() {
     var date = new Date();
     if (date.getDate() >= 15) {
+        id_15.style.display = "flex";
         if (song15.currentTime > 0) {
-            song15.load();
+            close15();
         } else {
             song15.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close15() {
+    id_15.style.display = "none";
+    song15.load();
 }
 </script>

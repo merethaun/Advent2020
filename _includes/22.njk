@@ -2,18 +2,56 @@
     <img src="./assets/pictures/22_small.png"/>
 </button>
 
+<div class="audio presenter" id="id_22">
+    <h1>Träumerei</h1>
+    <audio controls id="song22">
+        <source src="./assets/audio/22.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close22()">&#10005</button>
+</div>
+
 <script>
-var song22 = new Audio("./assets/audio/22.mp3");
+var id_22 =document.getElementById("id_22");
+id_22.style.display = "none";
+var song22 = document.getElementById("song22");
 function playtwentytwo() {
     var date = new Date();
     if (date.getDate() >= 22) {
+        id_22.style.display = "flex";
         if (song22.currentTime > 0) {
-            song22.load();
+            close22();
         } else {
             song22.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close22() {
+    id_22.style.display = "none";
+    song22.load();
 }
 </script>

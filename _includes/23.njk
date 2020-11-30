@@ -2,18 +2,56 @@
     <img src="./assets/pictures/23_small.png"/>
 </button>
 
+<div class="audio presenter" id="id_23">
+    <h1>It's beginning to look a lot like Christmas</h1>
+    <audio controls id="song23">
+        <source src="./assets/audio/23.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close23()">&#10005</button>
+</div>
+
 <script>
-var song23 = new Audio("./assets/audio/23.mp3");
+var id_23 =document.getElementById("id_23");
+id_23.style.display = "none";
+var song23 = document.getElementById("song23");
 function playtwentythree() {
     var date = new Date();
     if (date.getDate() >= 23) {
+        id_23.style.display = "flex";
         if (song23.currentTime > 0) {
-            song23.load();
+            close23();
         } else {
             song23.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close23() {
+    id_23.style.display = "none";
+    song23.load();
 }
 </script>

@@ -2,18 +2,56 @@
     <img src="./assets/pictures/07_small.png"/>
 </button>
 
+<div class="audio presenter" id="id_07">
+    <h1>Waltz of the Flowers</h1>
+    <audio controls id="song07">
+        <source src="./assets/audio/07.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close07()">&#10005</button>
+</div>
+
 <script>
-var song07 = new Audio("./assets/audio/07.mp3");
+var id_07 =document.getElementById("id_07");
+id_07.style.display = "none";
+var song07 = document.getElementById("song07");
 function playseven() {
     var date = new Date();
     if (date.getDate() >= 7) {
+        id_07.style.display = "flex";
         if (song07.currentTime > 0) {
-            song07.load();
+            close07();
         } else {
             song07.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
         }
     } else {
         console.log("Can't play this!");
     }
+}
+function close07() {
+    id_07.style.display = "none";
+    song07.load();
 }
 </script>
