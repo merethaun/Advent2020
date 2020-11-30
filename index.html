@@ -1,0 +1,1392 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Adventskalender 2020</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/png" href="./assets/pictures/logo.png">
+    </head>
+    <body class="main">
+        <img
+            class="background" 
+            src="./assets/pictures/bcn.png"/>
+        <button class="fields one" onclick="playOne()">
+    <img src="./assets/pictures/01_small.png"/>
+</button>
+<div class="audio presenter" id="id_01">
+    <h1>Hedwig's Theme - Harry Potter</h1>
+    <audio controls id="song01">
+        <source src="./assets/audio/01.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close01()">&#10005</button>
+</div>
+
+<script>
+var id_01 =document.getElementById("id_01");
+id_01.style.display = "none";
+var song01 = document.getElementById("song01");
+function playOne() {
+    var date = new Date();
+    if (date.getDate() >= 1) {
+        id_01.style.display = "flex";
+        if (song01.currentTime > 0) {
+            close01();
+        } else {
+            song01.play();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close01() {
+    id_01.style.display = "none";
+    song01.load();
+}
+</script>
+        <button class="fields two" onclick="playTwo()">
+    <img src="./assets/pictures/02_small.png"/>
+</button>
+<div class="audio presenter" id="id_02">
+    <h1>Lord of the Rings - Main Theme</h1>
+    <audio controls id="song02">
+        <source src="./assets/audio/02.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close02()">&#10005</button>
+</div>
+
+<script>
+var id_02 =document.getElementById("id_02");
+id_02.style.display = "none";
+var song02 = document.getElementById("song02");
+function playTwo() {
+    var date = new Date();
+    if (date.getDate() >= 2) {
+        id_02.style.display = "flex";
+        if (song02.currentTime > 0) {
+            close02();
+        } else {
+            song02.play();
+            close01();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close02() {
+    id_02.style.display = "none";
+    song02.load();
+}
+</script>
+        <button class="fields three" onclick="playThree()">
+    <img src="./assets/pictures/03_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_03">
+    <h1>Leaves from the vine - Avatar</h1>
+    <audio controls id="song03">
+        <source src="./assets/audio/03.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close03()">&#10005</button>
+</div>
+
+<script>
+var id_03 =document.getElementById("id_03");
+id_03.style.display = "none";
+var song03 = document.getElementById("song03");
+function playThree() {
+    var date = new Date();
+    if (date.getDate() >= 3) {
+        id_03.style.display = "flex";
+        if (song03.currentTime > 0) {
+            close03();
+        } else {
+            song03.play();
+            close01();
+            close02();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close03() {
+    id_03.style.display = "none";
+    song03.load();
+}
+</script>
+        <button class="fields four" onclick="playFour()">
+    <img src="./assets/pictures/04_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_04">
+    <h1>Santa Claus is coming to Town</h1>
+    <audio controls id="song04">
+        <source src="./assets/audio/04.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close04()">&#10005</button>
+</div>
+
+<script>
+var id_04 =document.getElementById("id_04");
+id_04.style.display = "none";
+var song04 = document.getElementById("song04");
+function playFour() {
+    var date = new Date();
+    if (date.getDate() >= 4) {
+        id_04.style.display = "flex";
+        if (song04.currentTime > 0) {
+            close04();
+        } else {
+            song04.play();
+            close01();
+            close02();
+            close03();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close04() {
+    id_04.style.display = "none";
+    song04.load();
+}
+</script>
+        <button class="fields five" onclick="playFive()">
+    <img src="./assets/pictures/05_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_05">
+    <h1>Maria durch ein Dornwald ging</h1>
+    <audio controls id="song05">
+        <source src="./assets/audio/05.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close05()">&#10005</button>
+</div>
+
+<script>
+var id_05 =document.getElementById("id_05");
+id_05.style.display = "none";
+var song05 = document.getElementById("song05");
+function playFive() {
+    var date = new Date();
+    if (date.getDate() >= 5) {
+        id_05.style.display = "flex";
+        if (song05.currentTime > 0) {
+            close05();
+        } else {
+            song05.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close05() {
+    id_05.style.display = "none";
+    song05.load();
+}
+</script>
+        <button class="fields six" onclick="playsix()">
+    <img src="./assets/pictures/06_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_06">
+    <h1>Winter - Vier Jahreszeiten</h1>
+    <audio controls id="song06">
+        <source src="./assets/audio/06.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close06()">&#10005</button>
+</div>
+
+<script>
+var id_06 =document.getElementById("id_06");
+id_06.style.display = "none";
+var song06 = document.getElementById("song06");
+function playsix() {
+    var date = new Date();
+    if (date.getDate() >= 6) {
+        id_06.style.display = "flex";
+        if (song06.currentTime > 0) {
+            close06();
+        } else {
+            song06.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close06() {
+    id_06.style.display = "none";
+    song06.load();
+}
+</script>
+        <button class="fields seven" onclick="playseven()">
+    <img src="./assets/pictures/07_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_07">
+    <h1>Вальс цветов - Nussknacker</h1>
+    <audio controls id="song07">
+        <source src="./assets/audio/07.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close07()">&#10005</button>
+</div>
+
+<script>
+var id_07 =document.getElementById("id_07");
+id_07.style.display = "none";
+var song07 = document.getElementById("song07");
+function playseven() {
+    var date = new Date();
+    if (date.getDate() >= 7) {
+        id_07.style.display = "flex";
+        if (song07.currentTime > 0) {
+            close07();
+        } else {
+            song07.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close07() {
+    id_07.style.display = "none";
+    song07.load();
+}
+</script>
+        <button class="fields eight" onclick="playeight()">
+    <img src="./assets/pictures/08_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_08">
+    <h1>Caresse sur l'Océan</h1>
+    <audio controls id="song08">
+        <source src="./assets/audio/08.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close08()">&#10005</button>
+</div>
+
+<script>
+var id_08 =document.getElementById("id_08");
+id_08.style.display = "none";
+var song08 = document.getElementById("song08");
+function playeight() {
+    var date = new Date();
+    if (date.getDate() >= 8) {
+        id_08.style.display = "flex";
+        if (song08.currentTime > 0) {
+            close08();
+        } else {
+            song08.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close08() {
+    id_08.style.display = "none";
+    song08.load();
+}
+</script>
+        <button class="fields nine" onclick="playnine()">
+    <img src="./assets/pictures/09_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_09">
+    <h1>Etude Op. 10 No. 3 - Chopin</h1>
+    <audio controls id="song09">
+        <source src="./assets/audio/09.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close09()">&#10005</button>
+</div>
+
+<script>
+var id_09 =document.getElementById("id_09");
+id_09.style.display = "none";
+var song09 = document.getElementById("song09");
+function playnine() {
+    var date = new Date();
+    if (date.getDate() >= 9) {
+        id_09.style.display = "flex";
+        if (song09.currentTime > 0) {
+            close09();
+        } else {
+            song09.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close09() {
+    id_09.style.display = "none";
+    song09.load();
+}
+</script>
+        <button class="fields ten" onclick="playten()">
+    <img src="./assets/pictures/10_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_10">
+    <h1>Somewhere in my memory - Home Alone</h1>
+    <audio controls id="song10">
+        <source src="./assets/audio/10.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close10()">&#10005</button>
+</div>
+
+<script>
+var id_10 =document.getElementById("id_10");
+id_10.style.display = "none";
+var song10 = document.getElementById("song10");
+function playten() {
+    var date = new Date();
+    if (date.getDate() >= 10) {
+        id_10.style.display = "flex";
+        if (song10.currentTime > 0) {
+            close10();
+        } else {
+            song10.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close10() {
+    id_10.style.display = "none";
+    song10.load();
+}
+</script>
+        <button class="fields eleven" onclick="playeleven()">
+    <img src="./assets/pictures/11_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_11">
+    <h1>Silent Night</h1>
+    <audio controls id="song11">
+        <source src="./assets/audio/11.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close11()">&#10005</button>
+</div>
+
+<script>
+var id_11 =document.getElementById("id_11");
+id_11.style.display = "none";
+var song11 = document.getElementById("song11");
+function playeleven() {
+    var date = new Date();
+    if (date.getDate() >= 11) {
+        id_11.style.display = "flex";
+        if (song11.currentTime > 0) {
+            close11();
+        } else {
+            song11.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close11() {
+    id_11.style.display = "none";
+    song11.load();
+}
+</script>
+        <button class="fields twelve" onclick="playtwelve()">
+    <img src="./assets/pictures/12_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_12">
+    <h1>Танец Сахарной Феи - Nussknacker</h1>
+    <audio controls id="song12">
+        <source src="./assets/audio/12.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close12()">&#10005</button>
+</div>
+
+<script>
+var id_12 =document.getElementById("id_12");
+id_12.style.display = "none";
+var song12 = document.getElementById("song12");
+function playtwelve() {
+    var date = new Date();
+    if (date.getDate() >= 12) {
+        id_12.style.display = "flex";
+        if (song12.currentTime > 0) {
+            close12();
+        } else {
+            song12.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close12() {
+    id_12.style.display = "none";
+    song12.load();
+}
+</script>
+        <button class="fields thirteen" onclick="playthirteen()">
+    <img src="./assets/pictures/13_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_13">
+    <h1>Winter Wonderland</h1>
+    <audio controls id="song13">
+        <source src="./assets/audio/13.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close13()">&#10005</button>
+</div>
+
+<script>
+var id_13 =document.getElementById("id_13");
+id_13.style.display = "none";
+var song13 = document.getElementById("song13");
+function playthirteen() {
+    var date = new Date();
+    if (date.getDate() >= 13) {
+        id_13.style.display = "flex";
+        if (song13.currentTime > 0) {
+            close13();
+        } else {
+            song13.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close13() {
+    id_13.style.display = "none";
+    song13.load();
+}
+</script>
+        <button class="fields fourteen" onclick="playfourteen()">
+    <img src="./assets/pictures/14_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_14">
+    <h1>Princess Ivo - Books of Unwritten Tales</h1>
+    <audio controls id="song14">
+        <source src="./assets/audio/14.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close14()">&#10005</button>
+</div>
+
+<script>
+var id_14 =document.getElementById("id_14");
+id_14.style.display = "none";
+var song14 = document.getElementById("song14");
+function playfourteen() {
+    var date = new Date();
+    if (date.getDate() >= 14) {
+        id_14.style.display = "flex";
+        if (song14.currentTime > 0) {
+            close14();
+        } else {
+            song14.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close14() {
+    id_14.style.display = "none";
+    song14.load();
+}
+</script>
+        <button class="fields fiveteen" onclick="playfiveteen()">
+    <img src="./assets/pictures/15_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_15">
+    <h1>Nocture Op. 9 No. 2 - Chopin</h1>
+    <audio controls id="song15">
+        <source src="./assets/audio/15.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close15()">&#10005</button>
+</div>
+
+<script>
+var id_15 =document.getElementById("id_15");
+id_15.style.display = "none";
+var song15 = document.getElementById("song15");
+function playfiveteen() {
+    var date = new Date();
+    if (date.getDate() >= 15) {
+        id_15.style.display = "flex";
+        if (song15.currentTime > 0) {
+            close15();
+        } else {
+            song15.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close15() {
+    id_15.style.display = "none";
+    song15.load();
+}
+</script>
+        <button class="fields sixteen" onclick="playsixteen()">
+    <img src="./assets/pictures/16_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_16">
+    <h1>O Holy Night</h1>
+    <audio controls id="song16">
+        <source src="./assets/audio/16.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close16()">&#10005</button>
+</div>
+
+<script>
+var id_16 =document.getElementById("id_16");
+id_16.style.display = "none";
+var song16 = document.getElementById("song16");
+function playsixteen() {
+    var date = new Date();
+    if (date.getDate() >= 16) {
+        id_16.style.display = "flex";
+        if (song16.currentTime > 0) {
+            close16();
+        } else {
+            song16.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close16() {
+    id_16.style.display = "none";
+    song16.load();
+}
+</script>
+        <button class="fields seventeen" onclick="playseventeen()">
+    <img src="./assets/pictures/17_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_17">
+    <h1>Vois sur ton chemin</h1>
+    <audio controls id="song17">
+        <source src="./assets/audio/17.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close17()">&#10005</button>
+</div>
+
+<script>
+var id_17 =document.getElementById("id_17");
+id_17.style.display = "none";
+var song17 = document.getElementById("song17");
+function playseventeen() {
+    var date = new Date();
+    if (date.getDate() >= 17) {
+        id_17.style.display = "flex";
+        if (song17.currentTime > 0) {
+            close17();
+        } else {
+            song17.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close17() {
+    id_17.style.display = "none";
+    song17.load();
+}
+</script>
+        <button class="fields eightteen" onclick="playeightteen()">
+    <img src="./assets/pictures/18_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_18">
+    <h1>Once upon a December</h1>
+    <audio controls id="song18">
+        <source src="./assets/audio/18.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close18()">&#10005</button>
+</div>
+
+<script>
+var id_18 =document.getElementById("id_18");
+id_18.style.display = "none";
+var song18 = document.getElementById("song18");
+function playeightteen() {
+    var date = new Date();
+    if (date.getDate() >= 18) {
+        id_18.style.display = "flex";
+        if (song18.currentTime > 0) {
+            close18();
+        } else {
+            song18.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close18() {
+    id_18.style.display = "none";
+    song18.load();
+}
+</script>
+        <button class="fields nineteen" onclick="playnineteen()">
+    <img src="./assets/pictures/19_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_19">
+    <h1>Jingle Bells</h1>
+    <audio controls id="song19">
+        <source src="./assets/audio/19.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close19()">&#10005</button>
+</div>
+
+<script>
+var id_19 =document.getElementById("id_19");
+id_19.style.display = "none";
+var song19 = document.getElementById("song19");
+function playnineteen() {
+    var date = new Date();
+    if (date.getDate() >= 19) {
+        id_19.style.display = "flex";
+        if (song19.currentTime > 0) {
+            close19();
+        } else {
+            song19.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close20();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close19() {
+    id_19.style.display = "none";
+    song19.load();
+}
+</script>
+        <button class="fields twenty" onclick="playtwenty()">
+    <img src="./assets/pictures/20_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_20">
+    <h1>Carol of the Bells</h1>
+    <audio controls id="song20">
+        <source src="./assets/audio/20.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close20()">&#10005</button>
+</div>
+
+<script>
+var id_20 =document.getElementById("id_20");
+id_20.style.display = "none";
+var song20 = document.getElementById("song20");
+function playtwenty() {
+    var date = new Date();
+    if (date.getDate() >= 20) {
+        id_20.style.display = "flex";
+        if (song20.currentTime > 0) {
+            close20();
+        } else {
+            song20.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close21();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close20() {
+    id_20.style.display = "none";
+    song20.load();
+}
+</script>
+        <button class="fields twentyone" onclick="playtwentyone()">
+    <img src="./assets/pictures/21_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_21">
+    <h1>Lily's Theme - Harry Potter</h1>
+    <audio controls id="song21">
+        <source src="./assets/audio/21.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close21()">&#10005</button>
+</div>
+
+<script>
+var id_21 =document.getElementById("id_21");
+id_21.style.display = "none";
+var song21 = document.getElementById("song21");
+function playtwentyone() {
+    var date = new Date();
+    if (date.getDate() >= 21) {
+        id_21.style.display = "flex";
+        if (song21.currentTime > 0) {
+            close21();
+        } else {
+            song21.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close22();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close21() {
+    id_21.style.display = "none";
+    song21.load();
+}
+</script>
+        <button class="fields twentytwo" onclick="playtwentytwo()">
+    <img src="./assets/pictures/22_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_22">
+    <h1>Träumerei</h1>
+    <audio controls id="song22">
+        <source src="./assets/audio/22.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close22()">&#10005</button>
+</div>
+
+<script>
+var id_22 =document.getElementById("id_22");
+id_22.style.display = "none";
+var song22 = document.getElementById("song22");
+function playtwentytwo() {
+    var date = new Date();
+    if (date.getDate() >= 22) {
+        id_22.style.display = "flex";
+        if (song22.currentTime > 0) {
+            close22();
+        } else {
+            song22.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close23();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close22() {
+    id_22.style.display = "none";
+    song22.load();
+}
+</script>
+        <button class="fields twentythree" onclick="playtwentythree()">
+    <img src="./assets/pictures/23_small.png"/>
+</button>
+
+<div class="audio presenter" id="id_23">
+    <h1>It's beginning to look a lot like Christmas</h1>
+    <audio controls id="song23">
+        <source src="./assets/audio/23.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close23()">&#10005</button>
+</div>
+
+<script>
+var id_23 =document.getElementById("id_23");
+id_23.style.display = "none";
+var song23 = document.getElementById("song23");
+function playtwentythree() {
+    var date = new Date();
+    if (date.getDate() >= 23) {
+        id_23.style.display = "flex";
+        if (song23.currentTime > 0) {
+            close23();
+        } else {
+            song23.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close24();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close23() {
+    id_23.style.display = "none";
+    song23.load();
+}
+</script>
+        <button class="fields twentyfour" onclick="playtwentyfour()">
+    <img src="./assets/pictures/24_small.png"/>
+</button>
+
+
+<div class="audio presenter" id="id_24">
+    <h1>Deck the Halls</h1>
+    <audio controls id="song24">
+        <source src="./assets/audio/24.mp3" type="audio/mpeg">
+    </audio>
+    <button onclick="close24()">&#10005</button>
+</div>
+
+<script>
+var id_24 =document.getElementById("id_24");
+id_24.style.display = "none";
+var song24 = document.getElementById("song24");
+function playtwentyfour() {
+    var date = new Date();
+    if (date.getDate() >= 24) {
+        id_24.style.display = "flex";
+        if (song24.currentTime > 0) {
+            close24();
+        } else {
+            song24.play();
+            close01();
+            close02();
+            close03();
+            close04();
+            close05();
+            close06();
+            close07();
+            close08();
+            close09();
+            close10();
+            close11();
+            close12();
+            close13();
+            close14();
+            close15();
+            close16();
+            close17();
+            close18();
+            close19();
+            close20();
+            close21();
+            close22();
+            close23();
+        }
+    } else {
+        console.log("Can't play this!");
+    }
+}
+function close24() {
+    id_24.style.display = "none";
+    song24.load();
+}
+</script>
+        
+    </body>
+</html>

@@ -1,0 +1,210 @@
+.main {
+    background-color: #1b2615;
+    margin: 0;
+}
+
+.background {
+    width: calc(100vw);
+}
+
+.audio.presenter {
+    background: #f0f0ed;
+    display: none;
+    flex-direction: row;
+    position: fixed;
+    z-index: 1;
+    border-radius: 30px;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+    color: #636b61;
+    top: 1vh;
+    left: 50vw;
+    width: fit-content;
+    transform: translate(-50%, 0);
+}
+
+.audio.presenter > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}   
+
+.audio.presenter > button {
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+
+.audio.presenter > button:hover {
+    background-color: #636b6113;
+}
+
+.audio.presenter > audio {
+    outline: none;
+    background: #f0f0ed;
+    height: 40px;
+}
+
+.fields {
+    background: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.fields > img {
+    width: 100%;
+}
+
+.one {
+    width: calc((56/1366) * 100vw);
+    top: calc((266/1366) * 100vw);
+    left: calc((276/1366) * 100vw);
+}
+
+.two {
+    width: calc((65/1366) * 100vw);
+    top: calc((595/1366) * 100vw);
+    left: calc((664/1366) * 100vw);
+}
+
+.three {
+    width: calc((61/1366) * 100vw);
+    top: calc((80/1366) * 100vw);
+    left: calc((249/1366) * 100vw);
+}
+
+.four {
+    width: calc((52/1366) * 100vw);
+    top: calc((212/1366) * 100vw);
+    left: calc((1156/1366) * 100vw);
+}
+
+.five {
+    width: calc((77/1366) * 100vw);
+    top: calc((110/1366) * 100vw);
+    left: calc((44/1366) * 100vw);
+}
+
+.six {
+    width: calc((73/1366) * 100vw);
+    top: calc((229/1366) * 100vw);
+    left: calc((846/1366) * 100vw);
+}
+
+.seven {
+    width: calc((77/1366) * 100vw);
+    top: calc((421/1366) * 100vw);
+    left: calc((1090/1366) * 100vw);
+}
+
+.eight {
+    width: calc((41/1366) * 100vw);
+    top: calc((538/1366) * 100vw);
+    left: calc((1184/1366) * 100vw);
+}
+
+.nine {
+    width: calc((64/1366) * 100vw);
+    top: calc((229/1366) * 100vw);
+    left: calc((522/1366) * 100vw);
+}
+
+.ten {
+    width: calc((85/1366) * 100vw);
+    top: calc((115/1366) * 100vw);
+    left: calc((1267/1366) * 100vw);
+}
+
+.eleven {
+    width: calc((72/1366) * 100vw);
+    top: calc((630/1366) * 100vw);
+    left: calc((143/1366) * 100vw);
+}
+
+.twelve {
+    width: calc((121/1366) * 100vw);
+    top: calc((66/1366) * 100vw);
+    left: calc((374/1366) * 100vw);
+}
+
+.thirteen {
+    width: calc((78/1366) * 100vw);
+    top: calc((672/1366) * 100vw);
+    left: calc((939/1366) * 100vw);
+}
+
+.fourteen {
+    width: calc((78/1366) * 100vw);
+    top: calc((140/1366) * 100vw);
+    left: calc((168/1366) * 100vw);
+}
+
+.fiveteen {
+    width: calc((88/1366) * 100vw);
+    top: calc((400/1366) * 100vw);
+    left: calc((832/1366) * 100vw);
+}
+
+.sixteen {
+    width: calc((72/1366) * 100vw);
+    top: calc((68/1366) * 100vw);
+    left: calc((1120/1366) * 100vw);
+}
+
+.seventeen {
+    width: calc((75/1366) * 100vw);
+    top: calc((427/1366) * 100vw);
+    left: calc((248/1366) * 100vw);
+}
+
+.eightteen {
+    width: calc((130/1366) * 100vw);
+    top: calc((160/1366) * 100vw);
+    left: calc((600/1366) * 100vw);
+}
+
+.nineteen {
+    width: calc((99/1366) * 100vw);
+    top: calc((525/1366) * 100vw);
+    left: calc((425/1366) * 100vw);
+}
+
+.twenty {
+    width: calc((70/1366) * 100vw);
+    top: calc((508/1366) * 100vw);
+    left: calc((1/1366) * 100vw);
+}
+
+.twentyone {
+    width: calc((121/1366) * 100vw);
+    top: calc((56/1366) * 100vw);
+    left: calc((845/1366) * 100vw);
+}
+
+.twentytwo {
+    width: calc((78/1366) * 100vw);
+    top: calc((402/1366) * 100vw);
+    left: calc((425/1366) * 100vw);
+}
+
+.twentythree {
+    width: calc((121/1366) * 100vw);
+    top: calc((589/1366) * 100vw);
+    left: calc((280/1366) * 100vw);
+}
+
+.twentyfour {
+    width: calc((68/1366) * 100vw);
+    top: calc((381/1366) * 100vw);
+    left: calc((668/1366) * 100vw);
+}
