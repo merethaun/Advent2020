@@ -9,7 +9,7 @@
 
 .audio.presenter {
     background: #f0f0ed;
-    display: flex;
+    display: none;
     flex-direction: row;
     position: fixed;
     z-index: 1;
